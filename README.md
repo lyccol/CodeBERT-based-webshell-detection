@@ -15,3 +15,8 @@ encode: CodeBERT
 
 decode:TextCNN
 
+
+
+Accuracy Score = 0.96875
+F1 Score (Micro) = 0.96875
+F1 Score (Macro) = 0.9625730994152046
