@@ -1,5 +1,5 @@
 # CodeBERT-based-webshell-detection
-![image-20201231101214855](C:\Users\ly\AppData\Roaming\Typora\typora-user-images\image-20201231101214855.png)
+![image-20201231101214855](https://github.com/lyccol/CodeBERT-based-webshell-detection/blob/main/QQ%E6%88%AA%E5%9B%BE20201231102121.jpg)
 
 
 
