@@ -6,10 +6,10 @@ Pytorch implementation of Google AI's 2018 BERT, with simple annotation
 
 BERT 2018 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding Paper URL : https://arxiv.org/abs/1810.04805
 
-Dependency
-pip install torch==1.7.1
-pip install transformers==4.0.1
-pip install filelock more_itertools
+### Dependency
+- pip install torch==1.7.1
+- pip install transformers==4.0.1
+- pip install filelock more_itertools
 
 
 demo1.py : 用于使用模型进行预测
