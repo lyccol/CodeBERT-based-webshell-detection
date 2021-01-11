@@ -39,3 +39,7 @@ Accuracy Score = 1
 F1 Score (Micro) = 1
 
 F1 Score (Macro) = 1
+
+
+
+数据集和模型太大所以没有上传，有疑问6517465@qq.com
