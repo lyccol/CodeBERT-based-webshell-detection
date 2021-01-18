@@ -20,8 +20,8 @@ def read_imdb_split(split_dir):
 
     return texts, labels
 
-train_texts, train_labels = read_imdb_split('/home/liuyi/Document/data/aclImdb/train')
-test_texts, test_labels = read_imdb_split('/home/liuyi/Document/data/aclImdb/test')
+train_texts, train_labels = read_imdb_split('/home/xxxx/Document/data/aclImdb/train')
+test_texts, test_labels = read_imdb_split('/home/xxxx/Document/data/aclImdb/test')
 
 
 from sklearn.model_selection import train_test_split
