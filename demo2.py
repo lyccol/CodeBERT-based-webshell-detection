@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     print('open file.....')
     try:
-        rf = open('/home/liuyi/Document/data/odata/a.php', 'r', encoding='utf-8', errors='ignore')
+        rf = open('/home/xxxxx/Document/data/odata/a.php', 'r', encoding='utf-8', errors='ignore')
         data = rf.read()
     finally:
         rf.close()
