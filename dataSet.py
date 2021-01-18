@@ -14,11 +14,11 @@ from transformers import RobertaTokenizer, RobertaConfig, RobertaModel, AdamW
 class PhpDataset(Dataset):
     def __init__(self):
 
-        self.black_file_list = os.listdir(r'/home/liuyi/Document/data/webshell_data/bla')
-        self.white_file_list = os.listdir(r'/home/liuyi/Document/data/webshell_data/whi')
+        self.black_file_list = os.listdir(r'./')
+        self.white_file_list = os.listdir(r'./')
 
-        self.black = [r'/home/liuyi/Document/data/webshell_data/bla/' + i for i in self.black_file_list]
-        self.white = [r'/home/liuyi/Document/data/webshell_data/whi/' + i for i in self.white_file_list]
+        self.black = [r'./' + i for i in self.black_file_list]
+        self.white = [r'./' + i for i in self.white_file_list]
 
         self.tokenizer = RobertaTokenizer.from_pretrained("microsoft/codebert-base")
         self.model = RobertaModel.from_pretrained("microsoft/codebert-base")
