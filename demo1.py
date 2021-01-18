@@ -38,9 +38,8 @@ class testDataset(Dataset):
         self.tokenizer = RobertaTokenizer.from_pretrained("microsoft/codebert-base")
         self.model = RobertaModel.from_pretrained("microsoft/codebert-base")
 
-        # self.df = walkFile('/home/liuyi/Document/data/odata/wordpress')
-        self.df = walkFile('/home/liuyi/Document/data/webshell_data/bla')
-        # self.df = walkFile('/home/liuyi/Document/data/webshell_data/whi')
+        self.df = walkFile('./')
+
 
     def __getitem__(self, item):
         try:
